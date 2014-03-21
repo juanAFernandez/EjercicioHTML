@@ -1,0 +1,33 @@
+/*Usamos las # para identificar las secciones de html de forma concreta 
+  y configurar sus características de forma específica.*/ 
+
+
+#cuerpo{
+	background: #F2C4D;
+	
+}
+
+
+#cabecera{
+	/*Color de fondo*/
+	background: #A66F7E;
+	/*Una pequeña linea alrededor del cuadro cabecera*/
+	border: 1px solid #999999;
+	/*Para especificar un ancho "no por defecto" para la cabecera.*/
+	padding: 20px;
+}
+
+
+
+
+/* Notas:
+ * 
+ * En páginas como https://kuler.adobe.com/explore/newest/ (hay muchas más) podemos encontrar
+ * papeletas diseñadas por gente para montajes de todo tipo de colores que segun sus creadores
+ * encajan muy bien, además podemos obtener los códigos para usarlos en nuestra web y es bastante
+ * útil cuando estamos faltos de inspiración.
+ * En este caso se ha utilizado el tema "Cherry tree gn color": https://kuler.adobe.com/Cherry-tree-gn-color-theme-3675571/
+ * 
+ * 
+ * 
+ * Este documento también puede encontrarse en github.com/juanAFernandez/EjercicioHTML*/
