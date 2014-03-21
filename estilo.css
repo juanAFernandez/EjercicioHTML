@@ -17,6 +17,29 @@
 	padding: 20px;
 }
 
+/*Editando la configuración de la barra de navegación, como nos interesa vertical, lo dejamos con una
+ configuración muy sencilla y editamos la anchura de la barra de navegación a 155px para que quede bien.*/
+#barraNavegacion{
+	width: 155px;
+	background: #CCCCCC;
+	padding: 5px 10px;
+}
+
+/*Las filas*/
+#barraNavegacion li{
+	
+	display: block;
+	/*list-style: none;*/
+	padding: 5px;
+	font: bold 14px verdana, sans-serif;
+}
+/*El conjunto entero de lineas*/
+#barraNavegacion ul{
+	margin-left: -20px;
+}
+
+
+
 
 
 
