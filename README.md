@@ -10,10 +10,6 @@ Ejercicio de clase para comprender la estructura básica de un documento HTML.
 > "Además el código está lleno de comentarios para entender mejor
    lo que se intenta hacer."
 
-
-Versión
-----
-
-Ejercicio alojado en github en:
+Alojado en github en:
 
 https://github.com/juanAFernandez/EjercicioHTML
