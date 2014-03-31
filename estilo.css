@@ -1,54 +1,82 @@
 /*Usamos las # para identificar las secciones de html de forma concreta 
   y configurar sus características de forma específica.*/ 
 
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
 
 #cuerpo{
-	background: #F2C4D;
+		background-color: #CCC;
 	
 }
 
-
-#cabecera{
-	/*Color de fondo*/
-	background: #A66F7E;
-	/*Una pequeña linea alrededor del cuadro cabecera*/
-	border: 1px solid #999999;
-	/*Para especificar un ancho "no por defecto" para la cabecera.*/
-	padding: 20px;
+#cabecerayBarra {
+	position:fixed;
+	top:0px;
+	left:0px;
+	width:100%;
+	color:#CCC;
+	background:#333;
+	padding:8px;
 }
-
 /*Editando la configuración de la barra de navegación, como nos interesa vertical, lo dejamos con una
  configuración muy sencilla y editamos la anchura de la barra de navegación a 155px para que quede bien.*/
-#barraNavegacion{
-	width: 155px;
-	background: #CCCCCC;
-	padding: 5px 10px;
-}
 
 /*Las filas*/
-#barraNavegacion li{
-	
-	display: block;
-	/*list-style: none;*/
-	padding: 5px;
-	font: bold 14px verdana, sans-serif;
-}
-/*El conjunto entero de lineas*/
-#barraNavegacion ul{
-	margin-left: -20px;
+
+
+#cabecerayBarra, #pie{
+	font: bold 120% monospace;
 }
 
+
+#barraNavegacion a{
+	text-decoration:none; 
+}
+#barraNavegacion a:hover{
+	color: gray;
+}
+
+#cuerpoTexto{
+
+	margin: 100px 20px;
+	font-family: Arial, 'Lucida Sans Unicode', Helvetica, sans-serif;	
+
+}
+
+.lista{
+	margin-top:10px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+
+}
+
+#cuarto h1{
+	font-size: 20px;
+}
+#cuarto h2{
+	font-size: 15px;
+}
+
+#cuarto li{
+	margin-left: 100px;
+}
+#cuarto ul{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 #pie{
-	background: #F2C4D0;
-	color:gray;
-	text-align: center;
 	
+clear: both;
+text-align: center;
+padding: 2px;
+
+
 }
-
-
-
-
 
 /* Notas:
  * 
@@ -60,4 +88,4 @@
  * 
  * 
  * 
- * Este documento también puede encontrarse en github.com/juanAFernandez/EjercicioHTML*/
+ * Este documento también puede encontrarse en github.com/juanAFernandez/EjercicioHTML*/	
